@@ -77,7 +77,7 @@ shinyUI(
         "
       ))
     ),
-    theme = shinytheme("yeti"),
+    theme = shinytheme("united"),
     navbarPage("Policy Analysis for Deworming Interventions: Open Output Component",
                # Begin main policy estimate tab ----
                tabPanel(
@@ -284,8 +284,8 @@ shinyUI(
                             # Begin policy estimate description ----
                             selectInput("policy_est",
                                         h4("Policy Estimate:"),
-                                        choices = "A3. All income of A1",
-                                        selected = "A3. All income of A1"),
+                                        choices = "A3. All income of A1, with ext.",
+                                        selected = "A3. All income of A1, with ext."),
                             withMathJax(),
                             useShinyjs(),
                             # end policy estimate description ----

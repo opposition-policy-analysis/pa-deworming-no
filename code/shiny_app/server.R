@@ -596,7 +596,7 @@ shinyServer( function(input, output, session) {
   # Generate Plot with Key Assumptions
   plotInputKA <- function(){
     npv_all_sim <- reactive.data1()
-    output_plot <- generate_plot_f(npv_all_sim, "A3. All income of A1", input$rescale, TRUE)
+    output_plot <- generate_plot_f(npv_all_sim, "A3. All income of A1, with ext.", input$rescale, TRUE)
     plot1 <- output_plot[[1]]
 
     position <- output_plot[[2]]
@@ -622,7 +622,7 @@ shinyServer( function(input, output, session) {
   # Generate Main Policy Estimate Plot
   output$plot1_main <- renderPlot({
     npv_all_sim <- reactive.data1()
-    output_plot <- generate_plot_f(npv_all_sim, "A3. All income of A1", input$rescale)
+    output_plot <- generate_plot_f(npv_all_sim, "A3. All income of A1, with ext.", input$rescale)
     plot1 <- output_plot[[1]]
 
     position <- output_plot[[2]]
