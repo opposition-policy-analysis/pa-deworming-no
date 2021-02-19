@@ -19,10 +19,10 @@ benefits of mass deworming interventions in various settings. Together,
 these materials create a transparent and reproducible analysis to
 facilitate collaboration and discussion about deworming policy.
 
-1 - [An interactive plot](https://fhoces.shinyapps.io/shiny_app_test/),
+1 - [An interactive plot](https://keanulim123.shinyapps.io/pa-deworming-no-shiny-app/),
 which summarizes the interactions between all key parameters for a given
 set of assumptions. Materials can be found in:
-[`code/shiny_app`](https://github.com/BITSS-OPA/opa-deworming/tree/master/code/shiny_app).
+[`code/shiny_app`](https://github.com/opposition-policy-analysis/pa-deworming-no/tree/master/code/shiny_app).
 
 2 - This Github repository, which stores all data, code, and materials
 necessary to replicate the analysis in full with minimal effort.
