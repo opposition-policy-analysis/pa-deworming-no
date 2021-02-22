@@ -10,9 +10,6 @@
 Open in RStudio:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opposition-policy-analysis/pa-deworming-no/master?urlpath=rstudio)
 
-Go straight to the Shiny app:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://keanulim123.shinyapps.io/pa-deworming-no-shiny-app/)
-
 This repository and its accompanying dynamic document and Shiny app are
 two key components of a Dads Against Deworming Analysis (DAD) on the costs and
 benefits of mass deworming interventions in various settings. Together,
